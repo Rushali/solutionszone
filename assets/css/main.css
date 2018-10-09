@@ -34,6 +34,19 @@ body {
   background-color: #fff;
 }
 
+/* Style the header */
+.header {
+  padding: 10px 16px;
+  color: black;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
 p {
   margin-top: 0;
 }
@@ -1665,7 +1678,7 @@ h6, .h6 {
   box-shadow: 0px 0px 16px 0px rgba(233, 74, 74, 0.65);
 }
 
-/* Slider 
+/* Slider
 .slick-slider {
   position: relative;
   display: block;
@@ -1764,12 +1777,12 @@ h6, .h6 {
   display: none;
 }
 
-/* Slider 
+/* Slider
 .slick-loading .slick-list {
   background: #fff url("../images/ajax-loader.gif") center center no-repeat;
 }
 
-/* Icons 
+/* Icons
 /* Arrows */
 .slick-prev,
 .slick-next {
@@ -2630,6 +2643,3 @@ xclip
 .title {
     color: grey;
 }
-
-
-

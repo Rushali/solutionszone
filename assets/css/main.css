@@ -50,6 +50,14 @@ a:hover {
 
 img {
   max-width: 100%;
+  height: auto;
+}
+
+.teampage {
+   padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 }
 
 .clearfix::after {
@@ -2015,7 +2023,8 @@ h6, .h6 {
 }
 
 .hero-section__option img {
-  max-width: none;
+  max-width: 100%;
+  height:auto;
   top: 0;
   bottom: 0;
   position: absolute;
